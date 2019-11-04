@@ -1,0 +1,70 @@
+Instuctions : Make a directory for every exercise you complete and insert your resources 
+	      into those directories accordingly. once you have completed an exercise or
+	      project then I would recommend pushing it to your branch via Github.
+
+Rules	    : You are allowed to work together. Don't know something? > Ask a friend, G-
+	      oogle, man etc. Only use Terminal commands to complete these exercises.
+        
+----------------------------------------------------------------------------------------
+				General Terminal Use					
+----------------------------------------------------------------------------------------
+
+ex.00 -> create a file called myName.
+
+ex.01 -> copy that file to directory called ex.01 and insert your name into that file.
+
+ex.02 -> copy content into a file called myname(1).txt and display content to terminal, 
+	 screenshot your workings and include in this directory.
+
+ex.03 -> copy myname(1) content into file called Aboutme. Append a sentence describing
+	 yourself, screenshot your workings and include in this directory.
+
+ex.04 -> copy the amount of words from Aboutme into a file called Words.txt.
+
+ex.05 -> list all of the previous tasks recursively and copy the output to a file called
+	 list.txt.
+
+ex.06 -> create a tarball called myFirstTarball.tar of all your previous exersises and 
+	 insert into this folder.
+
+ex.07 -> zip the tarball from the previous exercise to myFirstZip.zip.
+
+ex.08 -> include a screenshot of you unzipping myFirstZip.zip using gunzip or unzip.
+
+ex.09 -> include a screenshot of you untarring myFirstTarball from unzipped files in t-
+	 he previous exercise. remove the zip file in this folder before pushing to git 
+
+----------------------------------------------------------------------------------------
+				Automating Scripts					
+----------------------------------------------------------------------------------------
+
+ex.10 -> create a shell called myName.sh file that displays your name when executed.
+	 execute as follows: $> sh myName.sh
+
+ex.11 -> add executable and only executable privileges over myName.sh by changing the 
+	 mode of the file. execution as follows: $> ./myName.sh
+
+ex.12 -> create a shell file called list.sh that will list all things in Desktop, it mu-
+	 st list recursively and have Read, Write and Executable privileges.
+
+ex.13 -> create a shell file called create.sh, it should create a file with the name of 
+	 all parameters passed in. execution as follows : $> ./create.sh test tset estt 
+	 ...test tset and estt should be created as files.
+
+ex.14 -> create a shell file called git_this.sh that takes in only the first parameter 
+	 and will push all things in the parameter entered. execution as follows : 
+	 $> ./git_this.sh Carl ...all things in Carl directory should be pushed to the 
+	 git repository.
+
+ex.15 -> create a shell file called condition.sh that takes in a parameter. If that par-	
+	 ameter is Hello then it should display World to the output, otherwise display t-
+ 	 he word Unkown to the output. execution as follows : $> ./condition.sh Hello ...
+	 World should be displayed. $> ./condition.sh random text here ...it should disp-
+ 	 lay Unknown.
+
+ex.16 -> create a shell file called loop.sh that displays numbers 1 to 100 using a for
+	 or a while loop. execution as follws : $> ./loop.sh
+
+ex.17 -> create a shell file called compress.sh that accepts a parameter and compresses 
+	 everything in the current directory into a zip or a tarball, you can choose wh-
+	 ich one you like the most :D.
