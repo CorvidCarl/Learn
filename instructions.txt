@@ -4,6 +4,8 @@ Instuctions : Make a directory for every exercise you complete and insert your r
 
 Rules	    : You are allowed to work together. Don't know something? > Ask a friend, G-
 	      oogle, man etc. Only use Terminal commands to complete these exercises.
+	      
+Aim	    : Teaching you to self learn and become independant in that sense
         
 ----------------------------------------------------------------------------------------
 				General Terminal Use					
