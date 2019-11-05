@@ -9,6 +9,8 @@ Rules	    : You are allowed to work together. Don't know something? > Ask a frie
 				General Terminal Use					
 ----------------------------------------------------------------------------------------
 
+https://www.tutorialspoint.com/unix/index.htm
+
 ex.00 -> create a file called myName.
 
 ex.01 -> copy that file to directory called ex.01 and insert your name into that file.
@@ -44,8 +46,9 @@ ex.10 -> create a shell called myName.sh file that displays your name when execu
 ex.11 -> add executable and only executable privileges over myName.sh by changing the 
 	 mode of the file. execution as follows: $> ./myName.sh
 
-ex.12 -> create a shell file called list.sh that will list all things in Desktop, it mu-
-	 st list recursively and have Read, Write and Executable privileges.
+ex.12 -> create a shell file called list.sh that will list all things in Desktop into
+	 list.txt, it must list recursively and have Read, Write and Executable privi-
+	 leges.
 
 ex.13 -> create a shell file called create.sh, it should create a file with the name of 
 	 all parameters passed in. execution as follows : $> ./create.sh test tset estt 
